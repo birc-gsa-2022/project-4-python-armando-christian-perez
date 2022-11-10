@@ -34,5 +34,6 @@ I was in doubt whether the ranks were to be computed for the reads or the refere
 Running on mississippi and some other stuff.
 
 ## Running time
-
+![](Suffix_array_construction_speed.png)
+I was only able to get actual running times for constructing the preprocessing data structures for the genome. The matching speed is always below the minimum time i can time in python, even up to 1000 bp long reads. I can't really try longer references either, as it is starting to max out at 100kb for running time.
 *List experiments and results that show that both the preprocessing algorithm and the search algorithm works in the expected running time. Add figures by embedding them here, as you learned how to do in project 1.*
