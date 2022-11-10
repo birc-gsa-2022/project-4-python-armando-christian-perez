@@ -19,15 +19,19 @@ Once you have implemented the `fm` program (and tested it to the best of your ab
 
 ## Preprocessing
 
-*What preprocessing data do you store in files, and how?*
+The suffix array, the ranks and the buckets.
 
 ## Insights you may have had while implementing the algorithm
 
+How to read multiple files line by line at once.
+
 ## Problems encountered if any
+
+I was in doubt whether the ranks were to be computed for the reads or the reference.
 
 ## Validation
 
-*How did you validate that the preprocessing and the search algorithm works?*
+Running on mississippi and some other stuff.
 
 ## Running time
 
