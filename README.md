@@ -19,16 +19,21 @@ Once you have implemented the `fm` program (and tested it to the best of your ab
 
 ## Preprocessing
 
-*What preprocessing data do you store in files, and how?*
+The suffix array, the ranks and the buckets.
 
 ## Insights you may have had while implementing the algorithm
 
+How to read multiple files line by line at once.
+
 ## Problems encountered if any
+
+I was in doubt whether the ranks were to be computed for the reads or the reference.
 
 ## Validation
 
-*How did you validate that the preprocessing and the search algorithm works?*
+Running on mississippi and some other stuff.
 
 ## Running time
-
+![](Suffix_array_construction_speed.png)
+I was only able to get actual running times for constructing the preprocessing data structures for the genome. The matching speed is always below the minimum time i can time in python, even up to 1000 bp long reads. I can't really try longer references either, as it is starting to max out at 100kb for running time.
 *List experiments and results that show that both the preprocessing algorithm and the search algorithm works in the expected running time. Add figures by embedding them here, as you learned how to do in project 1.*
